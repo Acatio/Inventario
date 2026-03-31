@@ -1,0 +1,88 @@
+2026-03-26T14:22:29.350-06:00  INFO 6160 --- [inventario] [main] m.inventario.InventarioApplication       : Starting InventarioApplication using Java 24.0.1 with PID 6160 (D:\curso java\inventario\target\classes started by jose in D:\curso java\inventario)
+2026-03-26T14:22:29.364-06:00 DEBUG 6160 --- [inventario] [main] m.inventario.InventarioApplication       : Running with Spring Boot v4.0.4, Spring v7.0.6
+2026-03-26T14:22:29.369-06:00  INFO 6160 --- [inventario] [main] m.inventario.InventarioApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-26T14:22:32.343-06:00  INFO 6160 --- [inventario] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26T14:22:32.473-06:00  INFO 6160 --- [inventario] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 0 JPA repository interfaces.
+2026-03-26T14:22:34.385-06:00  INFO 6160 --- [inventario] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-26T14:22:34.451-06:00  INFO 6160 --- [inventario] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-26T14:22:34.452-06:00  INFO 6160 --- [inventario] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26T14:22:34.732-06:00  INFO 6160 --- [inventario] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5132 ms
+2026-03-26T14:22:35.494-06:00  INFO 6160 --- [inventario] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-26T14:22:35.678-06:00  INFO 6160 --- [inventario] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-03-26T14:22:37.100-06:00  INFO 6160 --- [inventario] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26T14:22:37.192-06:00  INFO 6160 --- [inventario] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-26T14:22:38.898-06:00  INFO 6160 --- [inventario] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6adcf059
+2026-03-26T14:22:38.904-06:00  INFO 6160 --- [inventario] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-26T14:22:39.228-06:00  INFO 6160 --- [inventario] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/inventario_bd?createDatabaseIfNotExist=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.5
+	Default catalog/schema: inventario_bd/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-26T14:22:40.298-06:00  INFO 6160 --- [inventario] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-26T14:22:40.318-06:00  INFO 6160 --- [inventario] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26T14:22:40.516-06:00  WARN 6160 --- [inventario] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26T14:22:41.944-06:00  WARN 6160 --- [inventario] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-26T14:22:41.950-06:00  INFO 6160 --- [inventario] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26T14:22:41.963-06:00  INFO 6160 --- [inventario] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-26T14:22:42.005-06:00  INFO 6160 --- [inventario] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-26T14:22:42.042-06:00  INFO 6160 --- [inventario] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26T14:22:42.094-06:00 ERROR 6160 --- [inventario] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-03-26T14:30:43.286-06:00  INFO 17184 --- [inventario] [main] m.inventario.InventarioApplication       : Starting InventarioApplication using Java 24.0.1 with PID 17184 (D:\curso java\inventario\target\classes started by jose in D:\curso java\inventario)
+2026-03-26T14:30:43.300-06:00 DEBUG 17184 --- [inventario] [main] m.inventario.InventarioApplication       : Running with Spring Boot v4.0.4, Spring v7.0.6
+2026-03-26T14:30:43.305-06:00  INFO 17184 --- [inventario] [main] m.inventario.InventarioApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-26T14:30:45.737-06:00  INFO 17184 --- [inventario] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26T14:30:45.851-06:00  INFO 17184 --- [inventario] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 0 JPA repository interfaces.
+2026-03-26T14:30:47.651-06:00  INFO 17184 --- [inventario] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-26T14:30:47.701-06:00  INFO 17184 --- [inventario] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-26T14:30:47.702-06:00  INFO 17184 --- [inventario] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26T14:30:47.958-06:00  INFO 17184 --- [inventario] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4413 ms
+2026-03-26T14:30:48.659-06:00  INFO 17184 --- [inventario] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-26T14:30:48.839-06:00  INFO 17184 --- [inventario] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-03-26T14:30:50.272-06:00  INFO 17184 --- [inventario] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26T14:30:50.382-06:00  INFO 17184 --- [inventario] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-26T14:30:51.446-06:00  INFO 17184 --- [inventario] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45ad3cd8
+2026-03-26T14:30:51.457-06:00  INFO 17184 --- [inventario] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-26T14:30:51.835-06:00  INFO 17184 --- [inventario] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/inventario_bd?createDatabaseIfNotExist=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.5
+	Default catalog/schema: inventario_bd/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-26T14:30:52.789-06:00  INFO 17184 --- [inventario] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-26T14:30:52.808-06:00  INFO 17184 --- [inventario] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26T14:30:52.981-06:00  WARN 17184 --- [inventario] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26T14:30:54.037-06:00  INFO 17184 --- [inventario] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-26T14:30:54.057-06:00  INFO 17184 --- [inventario] [main] m.inventario.InventarioApplication       : Started InventarioApplication in 12.585 seconds (process running for 14.335)
+2026-03-26T14:32:01.876-06:00  INFO 17184 --- [inventario] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26T14:32:01.912-06:00  INFO 17184 --- [inventario] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-26T14:32:01.921-06:00  INFO 17184 --- [inventario] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26T14:32:01.929-06:00  INFO 17184 --- [inventario] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-26T14:32:01.953-06:00  INFO 17184 --- [inventario] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
